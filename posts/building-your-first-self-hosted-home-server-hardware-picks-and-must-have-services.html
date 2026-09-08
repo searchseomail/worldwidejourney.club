@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building Your First Self-Hosted Home Server: Hardware Picks and Must-Have Services</title>
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="https://worldwidejourney.club/favicon.ico" type="image/x-icon">
+    <link rel="canonical" href="https://worldwidejourney.club/posts/building-your-first-self-hosted-home-server-hardware-picks-and-must-have-services.html">
+    <link rel="amphtml" href="https://worldwidejourney.club/amp/posts/building-your-first-self-hosted-home-server-hardware-picks-and-must-have-services.html">
+    <link rel="stylesheet" href="https://worldwidejourney.club/css/styles.css">
+    <script>const BASE_URL = "https://worldwidejourney.club";</script>
+    <script src="https://worldwidejourney.club/js/search.js" defer></script>
+    <script src="https://worldwidejourney.club/js/auth.js" defer></script>
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-container">
+            <a href="https://worldwidejourney.club/" class="logo">Worldwidejourney.club Forum</a>
+            <div style="position:relative;">
+                <input type="text" id="searchInput" placeholder="Search the forum..." autocomplete="off" class="search-input">
+                <div id="searchResults" style="position:absolute; top:100%; left:0; right:0; background:#fff; border:1px solid #ccc; display:none; max-height:300px; overflow-y:auto; z-index:999;"></div>
+            </div>
+            <nav class="header-nav">
+                <button onclick="openLogin()" class="btn-primary" style="background:transparent; color:#333; border:1px solid #ccc;">Login</button>
+                <button onclick="openRegister()" class="btn-primary">Register</button>
+            </nav>
+        </div>
+    </header>
+    <div class="layout-container">
+        <main class="main-content">
+            
+<div class="breadcrumb" style="font-size:0.9rem; color:var(--text-muted); margin-bottom:15px;"><a href="https://worldwidejourney.club/">Home</a> &raquo; Discussions</div>
+<h1 style="margin-bottom: 25px;">Building Your First Self-Hosted Home Server: Hardware Picks and Must-Have Services</h1>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (34).png" alt="WarpedWanderer">
+        <div class="user-name-side">WarpedWanderer</div>
+        <div class="badge">Topic Starter</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Posted: 04.03.2025 05:07</span></div>
+        <div class="message-text">I'm finally taking the plunge and ditching public cloud storage and subscription services to build my very first home server. I have a modest budget and I'm currently looking at used enterprise hardware versus consumer mini PCs, but I'm torn on which route is best for a beginner. Additionally, I'd love to hear recommendations on the essential services every self-hoster should spin up first, whether it's Plex, Home Assistant, or Pi-hole.</div>
+    </div>
+</div>
+
+<h3 style="margin: 40px 0 20px; border-bottom: 2px solid var(--border-color); padding-bottom: 10px;">Replies (11)</h3>
+
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (69).png" alt="ApexAlchemist">
+        <div class="user-name-side">ApexAlchemist</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 06.03.2025 08:58</span></div>
+        <div class="message-text">Welcome to the rabbit hole! If you are on a modest budget, definitely go with a used mini PC like a Dell OptiPlex Micro or Lenovo ThinkCentre. Enterprise gear is loud and power-hungry, which will kill you on your electric bill.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (33).png" alt="SilentStorm">
+        <div class="user-name-side">SilentStorm</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 08.03.2025 02:51</span></div>
+        <div class="message-text">I started with an old office desktop I got for fifty bucks on eBay, and it's been running 24/7 for two years without a hitch. Consumer mini PCs are great on power, but used business desktops give you a bit more room for internal storage expansion.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (11).png" alt="QuantumQuill">
+        <div class="user-name-side">QuantumQuill</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 11.03.2025 08:04</span></div>
+        <div class="message-text">As for essential services, start with Pi-hole or AdGuard Home first. Blocking network-wide ads is an instant win that the whole family will appreciate.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (41).png" alt="NovaNinja">
+        <div class="user-name-side">NovaNinja</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 05.04.2025 01:28</span></div>
+        <div class="message-text">Next up should definitely be Proxmox as your hypervisor. It has a bit of a learning curve, but it lets you spin up and destroy containers and VMs easily while you are experimenting.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (23).png" alt="GravityGuru">
+        <div class="user-name-side">GravityGuru</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 14.04.2025 01:19</span></div>
+        <div class="message-text">For media, Plex or Jellyfin are absolute must-haves. Just make sure the CPU you choose has QuickSync if you plan on doing any 4K transcoding.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (5).png" alt="CyberCenturion">
+        <div class="user-name-side">CyberCenturion</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 24.09.2025 03:46</span></div>
+        <div class="message-text">Speaking of working with tech and hardware all day, sometimes staring at screens can drain your energy. If you ever feel overwhelmed by managing all these local services while working remotely, check out this guide on <a href='https://worldwidejourney.club/posts/remote-work-burnout-how-do-you-set-healthy-boundaries-when-working-from-home.html'>remote work burnout</a> to keep your sanity intact.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (21).png" alt="BinaryBard">
+        <div class="user-name-side">BinaryBard</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 05.10.2025 10:50</span></div>
+        <div class="message-text">Don't forget backup software! Proxmox Backup Server or simply setting up BorgBackup to an external drive will save you a lot of tears when a drive inevitably fails.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (14).png" alt="PixelPioneer">
+        <div class="user-name-side">PixelPioneer</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 22.11.2025 11:16</span></div>
+        <div class="message-text">Home Assistant is amazing, but warning: it's addictive. Before you know it, you'll be replacing every light switch and buying smart plugs for things that don't need to be smart.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (68).png" alt="GravityGuru">
+        <div class="user-name-side">GravityGuru</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 21.12.2025 09:59</span></div>
+        <div class="message-text">If you want to offset the electricity costs of running a server 24/7, you might want to look into some <a href='https://worldwidejourney.club/posts/realistic-passive-income-ideas-for-beginners-what-is-actually-working-right-now.html'>realistic passive income ideas</a> to help fund your growing homelab habit.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (14).png" alt="YieldingYeti">
+        <div class="user-name-side">YieldingYeti</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 27.01.2026 16:40</span></div>
+        <div class="message-text">Throw CasaOS or Portainer on top of whatever OS you choose if you want a super beginner-friendly dashboard to manage all your Docker containers without touching the command line too much.</div>
+    </div>
+</div>
+
+<div class="message-block">
+    <div class="user-panel">
+        <img src="https://worldwidejourney.club/ava/182220 (24).png" alt="GlitchGuardian">
+        <div class="user-name-side">GlitchGuardian</div>
+    </div>
+    <div class="message-content">
+        <div class="message-header"><span>Replied: 03.02.2026 07:37</span></div>
+        <div class="message-text">Have fun with the build! The best part of self-hosting is breaking things, figuring out why they broke, and rebuilding them better than before.</div>
+    </div>
+</div>
+
+
+        </main>
+        <aside class="sidebar">
+            <div class="card">
+                <h3 class="widget-title">Forum Stats</h3>
+                <ul class="stat-list" style="list-style:none;">
+                    <li><span>Total Topics:</span> <b>55</b></li>
+                    <li><span>Total Messages:</span> <b>612</b></li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3 class="widget-title">Recent Topics</h3>
+                <ul style="list-style:none;">
+                    
+                    <li style="margin-bottom:10px;"><a href="https://worldwidejourney.club/posts/how-to-build-a-tech-audience-on-x-from-scratch-proven-tactics-and-what-to-avoid.html">How to Build a Tech Audience on X from Scratch: Proven Tactics and What to Avoid</a></li>
+                    
+                    <li style="margin-bottom:10px;"><a href="https://worldwidejourney.club/posts/how-to-start-freelancing-with-zero-experience-real-steps-first-clients-and-mistakes-to-avoid.html">How to Start Freelancing with Zero Experience: Real Steps, First Clients, and Mistakes to Avoid</a></li>
+                    
+                    <li style="margin-bottom:10px;"><a href="https://worldwidejourney.club/posts/calisthenics-vs-gym-weightlifting-which-produces-better-strength-and-aesthetic-results.html">Calisthenics vs. Gym Weightlifting: Which Produces Better Strength and Aesthetic Results?</a></li>
+                    
+                    <li style="margin-bottom:10px;"><a href="https://worldwidejourney.club/posts/switching-careers-to-tech-self-taught-vs-bootcamps-vs-degrees-what-worked-for-you.html">Switching Careers to Tech: Self-Taught vs. Bootcamps vs. Degrees (What Worked for You?)</a></li>
+                    
+                </ul>
+            </div>
+        </aside>
+    </div>
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div>
+                <h4 style="margin-bottom:15px; font-size:1.1rem;">Worldwidejourney.club Forum Hub</h4>
+                <p>A community for sharing knowledge and experiences. We create a place for cultured discussions on all topics.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom:15px; font-size:1.1rem;">Forum Rules</h4>
+                <p>Spam, insults, inappropriate content, and trolling are strictly prohibited. Let's maintain a high level of discussion.</p>
+            </div>
+            <div>
+                <h4 style="margin-bottom:15px; font-size:1.1rem;">Information</h4>
+                <p>This site uses cookies.<br><a href="#">Privacy Policy</a> &middot; <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
